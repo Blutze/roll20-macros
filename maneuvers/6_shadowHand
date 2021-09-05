@@ -3,3 +3,5 @@
 &{template:DnD35StdRoll}{{spellflag=true}}{{name=@{character_name} initiates Shadow Blade Technique.}}{{School:=Shadow Hand (Su)}}{{Level:=Swordsage 1}}{{Initiation:=1 std action (strike)}}{{Range:=Melee attack}}{{Duration:=Instantaneous}}{{notes=@{character_name} makes a normal attack with 2d20. Decide which result to use; lower deals +1d6 cold damage if it hits.}}
 
 &{template:DnD35StdRoll}{{spellflag=true}}{{name=@{character_name} initiates Shadow Jaunt.}}{{School:=Shadow Hand [Teleportation] (Su)}}{{Level:=Swordsage 2}}{{Initiation:=1 std action}}{{Range:=50 ft}}{{Duration:=Instantaneous}}{{notes=@{character_name} teleports to a square within line of sight and line of effect. If target square is occupied, maneuver is expended without effect.}}
+
+&{template:DnD35StdRoll}{{spellflag=true}}{{name=@{character_name} initiates Island of Blades.}}{{School:=Shadow Hand}}{{Level:=Swordsage 1}}{{Initiation:=1 swift action (stance)}}{{Range:=Personal}}{{notes=@{character_name} only has to be adjacent to the same target as an ally to count as flanking with that ally.}}
