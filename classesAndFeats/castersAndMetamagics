@@ -1,0 +1,19 @@
+&{template:DnD35StdRoll}{{pcflag=true}}{{name=@{character_name} applies Metamagic School Focus (Illusion) to a spell.}}{{notes=Reduces slot level increase of a single metamagic feat by[[1]]for a single spellcasting.}}
+
+&{template:DnD35StdRoll}{{pcflag=true}}{{name=@{character_name} applies Sculpt Spell to a spell.}}{{notes=Changes the area to a cylinder (10-foot radius, 30 feet high), a 40-foot cone, four 10-foot cubes, a ball (20-foot radius spread), or a 120-foot line. Increases slot level by[[1]].}}
+
+&{template:DnD35StdRoll}{{pcflag=true}}{{name=@{character_name} applies Extend Spell to a spell.}}{{notes=Spell lasts twice as long. Does not apply to spells with concentration, instantaneous, or permanent duration. Increases slot level by[[1]].}}
+
+@{character_name} has used @{repeating_spells101_-MaKSyDlgB8zbomm2vBT_spellused101} of @{repeating_spells101_-MaKSyDlgB8zbomm2vBT_spellprep101} Escalations today.
+
+&{template:DnD35StdRoll}{{spellflag=true}}{{name=@{character_name} escalates Shadow Focus.}}{{Cmpnts:=None}}{{Casting Time:=1 swift action}}{{Duration:=1 round or until expended}}{{notes=Spell is heightened (effective spell level increased for concentration DC, save DC and immunities) by[[1]]. Caster level check DC is 10 + spell's level (including other metamagics, but not including this heightening), damage is 1 * spell's level.}}
+
+&{template:DnD35StdRoll}{{spellflag=true}}{{name=@{character_name} escalates Shadow Power.}}{{Cmpnts:=None}}{{Casting Time:=1 swift action}}{{Duration:=1 round or until expended}}{{notes=Spell is empowered (all variable, numeric effects are increased by one-half). Caster level check DC is 12 + 2x spell level (including other metamagic feats), damage is 2 * spell's level and fatigue for 1 round per spell level.}}
+
+&{template:DnD35StdRoll}{{spellflag=true}}{{name=@{character_name} escalates Shadow Growth.}}{{Cmpnts:=None}}{{Casting Time:=1 swift action}}{{Duration:=1 round or until expended}}{{notes=Spell is widened (increase any numeric measurements of a burst, emanation, line, or spread 100%). Caster level check DC is 14 + 2x spell level (including other metamagic feats), damage is 3 * spell's level and shaken for 1 round per spell level.}}
+
+&{template:DnD35StdRoll}{{spellflag=true}}{{name=@{character_name} uses Spin Fate.}}{{Cmpnts:=None}}{{Casting Time:=1 free action}}{{notes=Increases save DC of a single spell by 1 for each point of spin used.}}
+
+&{template:DnD35StdRoll}{{spellflag=true}}{{name=@{character_name} uses Fickle Finger of Fate.}}{{Cmpnts:=None}}{{Casting Time:=1 immediate action}}{{Range:=Unlimited, see text}}{{Target:=1 creature}}{{Duration:=Instantaneous}}{{notes=Target must reroll a roll it just made. Requires line of sight.}}
+
+&{template:DnD35StdRoll}{{spellflag=true}}{{name=@{character_name} uses Spin Destiny.}}{{Cmpnts:=None}}{{Casting Time:=1 free action}}{{notes=Adds the amount of spin used to a single attack, skill check or save.}}
